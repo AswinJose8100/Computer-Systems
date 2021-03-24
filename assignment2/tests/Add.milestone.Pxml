@@ -1,0 +1,26 @@
+<program>
+    <a-instruction>
+        <number>2</number>
+    </a-instruction>
+    <c-instruction>
+        <dest>D</dest>
+        <alu>A</alu>
+        <jump>NULL</jump>
+    </c-instruction>
+    <a-instruction>
+        <number>3</number>
+    </a-instruction>
+    <c-instruction>
+        <dest>D</dest>
+        <alu>D+A</alu>
+        <jump>NULL</jump>
+    </c-instruction>
+    <a-instruction>
+        <number>0</number>
+    </a-instruction>
+    <c-instruction>
+        <dest>M</dest>
+        <alu>D</alu>
+        <jump>NULL</jump>
+    </c-instruction>
+</program>
